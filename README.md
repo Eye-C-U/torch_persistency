@@ -55,4 +55,4 @@ if __name__ == "__main__":
 
 
 ## License
- has MIT license. You can find further details in [LICENSE](LICENSE).
+torch_persistency has MIT license. You can find further details in [LICENSE](LICENSE).
