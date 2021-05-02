@@ -1,7 +1,7 @@
 # Module Persistency 4 PyTorch
 
 [![PyPI](https://img.shields.io/pypi/v/torch_model_persistency.svg)](https://pypi.python.org/pypi/torch-model-persistency)
-[![Downloads](https://pepy.tech/badge/torch-model-persistency/week)](https://pepy.tech/project/torch-model-persistency) 
+<!--[![Downloads](https://pepy.tech/badge/torch-model-persistency/week)](https://pepy.tech/project/torch-model-persistency)-->
 
 
 Save model state without suffering.
