@@ -24,7 +24,7 @@ pip install torch-model-persistency
 
 ## Issues
 
-This project is currently developed and maintained by [EyeCU Software Team](https://github.com/Eye-C-U). You are very welcomed to send an e-mail to [head of developer team](mailto:ovuruska@eyecuvision.com) or open an issue for your future requests or bugs. It is always nice to hear from you people. Stay safe! 
+This project is currently developed and maintained by [EyeCU Software Team](https://github.com/Eye-C-U). You are very welcomed to send an e-mail to [head of developer team](mailto:ovuruska@eyecuvision.com) or open an issue for your future requests or bugs. It is always nice to hear from you. Stay safe! 
 
 
 
