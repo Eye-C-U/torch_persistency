@@ -4,18 +4,11 @@
 [![Downloads](https://pepy.tech/badge/torch-model-persistency/week)](https://pepy.tech/project/torch-model-persistency) \
 
 
-Simple-to-control model version management.
+Save model state without suffering.
 
 - [Install](#install)
-
-
-- [Examples](#examples)
-    - [A pipeline with basic elements](#a-pipeline-with-basic-elements)
-    - [Using Manager API](#using-manager-api)
-    - [Read limited section of video](#read--limited-section-of-video)
-    - [Iterate frames with frame numbers](#iterate-frames-with-frame-numbers)
-    - [Iterate frames in batches](#iterate-frames-in-batches)
-- [Team](#team)
+- [Issues](#issues)
+- [Tutorial](#tutorial)
 - [Our Websites](#our-websites)
 - [License](#license)
 
@@ -59,8 +52,6 @@ if __name__ == "__main__":
 
 [EyeCU Vision](https://eyecuvision.com/) \
 [EyeCU Future](https://eyecufuture.com/) 
-
-## Team
 
 
 ## License
