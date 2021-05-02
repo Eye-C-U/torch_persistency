@@ -6,7 +6,7 @@
 
 Save model state without suffering.
 
-- [Install](#install)
+- [Installation](#installation)
 - [Issues](#issues)
 - [Tutorial](#tutorial)
 - [Our Websites](#our-websites)
@@ -14,7 +14,7 @@ Save model state without suffering.
 
 
 
-## Install
+## Installation
 
 ```
 pip install torch-model-persistency
