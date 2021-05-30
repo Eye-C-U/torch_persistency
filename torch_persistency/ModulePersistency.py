@@ -12,20 +12,17 @@ class ModulePersistency:
 
                     version = int(fp.read())
                     # Delete all content in file.
-                    fp.truncate(0)   
-                    fp.write(f"{version+1}")
+                    
             except FileNotFoundError:
                 version = 0
-                with open("torch_persistency.env","w") as fp:
-                    fp.write(f"{version+1}")
-            
             
             except ValueError:
-            
                 version = 0
+                
+            
+            finally:
                 with open("torch_persistency.env","w") as fp:
                     fp.write(f"{version+1}")
-                
 
         self.checkpoint_dir = checkpoint_dir
         self.version = version
