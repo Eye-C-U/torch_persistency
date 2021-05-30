@@ -18,7 +18,14 @@ class ModulePersistency:
                 version = 0
                 with open("torch_persistency.env","w") as fp:
                     fp.write(f"{version+1}")
-
+            
+            
+            except ValueError:
+            
+                version = 0
+                with open("torch_persistency.env","w") as fp:
+                    fp.write(f"{version+1}")
+                
 
         self.checkpoint_dir = checkpoint_dir
         self.version = version
