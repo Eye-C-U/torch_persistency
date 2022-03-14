@@ -5,7 +5,7 @@ import pathlib
 
 class ModulePersistency:
 
-    def __init__(self,checkpoint_dir,version = None):
+    def __init__(self,checkpoint_dir = "checkpoint",version = None):
 
         if not version:
             try:
