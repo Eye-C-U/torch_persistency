@@ -30,7 +30,7 @@ class ModulePersistency:
         self._prepare()
 
 
-    def best(self,module,name=None)
+    def best(self,module,name=None):
         self._save(module,"best",name)
 
 
