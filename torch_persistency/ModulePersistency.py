@@ -30,16 +30,21 @@ class ModulePersistency:
         self._prepare()
 
 
+    def best(self,module,name=None)
+        self._save(module,"best",name)
 
-    def _prepare(self):
-        if os.path.exists(self.save_dir):
-            rmtree(self.save_dir)
 
-        os.mkdir(self.save_dir)
-
-    def save(self,module,epoch : int,name = None):
-        
+    def _save(self,module,tag,name):
         if not name:
             name = type(module).__name__
 
-        torch.save(module,os.path.join(self.save_dir,f"{name}_{epoch}.pt"))
+        torch.save(module,os.path.join(self.save_dir,f"{name}_{tag}.pt"))
+
+    def _prepare(self):
+        pathlib.Path(self.save_dir).mkdir(parents=True, exist_ok=True)
+
+
+    def save(self,module,epoch : int,name = None):
+        self._save(module,epoch,name)
+        
+
