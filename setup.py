@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
-from dog_identifier import VERSION
+from torch_persistency import VERSION
 
 setup(
-    name="torch_persistency",
+    name="torch_model_persistency",
     version=VERSION,
     packages=(
         find_packages() +
